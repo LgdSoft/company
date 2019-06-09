@@ -1,0 +1,46 @@
+*{ margin: 0;padding: 0;border: 0;}
+img { width: 100%;height: 100%; }
+.f_header { height: 300px; background-color: #eee;}
+.f_intro { margin-bottom: 30px; }
+.f_intro .intro_title  h3 { font-weight: bold; border-bottom: 3px solid #333; display: inline-block; padding-bottom:8px;margin-bottom: 15px;}
+.f_intro .intro_top { margin-bottom: 30px; }
+.f_intro .word_size { font-size: 19px; text-indent: 2em; text-align: justify;}
+.f_intro .intro_flex { display: flex; height: 290px; padding: 0 10px;}
+.f_intro .item_one { flex: 2; }
+.f_intro .item_twe { flex: 3; padding: 10px 30px 0; }
+.f_intro .intro_flex_twe { margin-top: 60px; }
+.f_intro .intro_bottom { margin: 60px 0; }
+.f_intro .word_font { text-indent: 0;display: none;  }
+
+.f_intro .intro_photo { height: 400px; }
+.f_intro .intro_photo_twe { height: 250px; margin-top: 20px;}
+.f_intro .carousel_photo { height: 100%;width: 100%; position: relative;}
+.f_intro .carousel_img_one { position: absolute;left: 0;top: 0; transition: all .5s;}
+.f_intro .carousel_img_twe { position: absolute;left: 0;top: 0; transition: all .5s;}
+.f_intro .carousel_img_three { position: absolute;left: 0;top: 0; transition: all .5s;}
+
+
+@media screen and (max-width: 1200px) {
+	.f_header { height: 240px; }
+	.f_intro .word_size { font-size: 15px;}
+	.f_intro .intro_flex { height: 200px; }
+	.f_intro .item_twe { padding: 0px 30px 0; }
+	.f_intro .intro_flex_twe { margin-top: 45px; }
+	.f_intro .intro_photo { height: 320px; }
+	.f_intro .intro_photo_twe { height: 200px;}
+	.f_intro .intro_bottom { margin: 45px 0; }
+}
+
+@media screen and (max-width: 992px) {
+	.f_header { height: 190px; }
+	.f_intro .intro_title  h3 { font-size: 20px; }
+	.f_intro .intro_flex { height: 150px; }
+	.f_intro .item_twe { padding: 0 10px 0; }
+	.f_intro .word_size { font-size: 13px;}
+	.f_intro .word_size span{ display: none;}
+	.f_intro .word_font { display: inline; }
+	.f_intro .intro_flex_twe { margin-top: 30px; }
+	.f_intro .intro_photo { height: 250px; }
+	.f_intro .intro_photo_twe { height: 150px; }
+	.f_intro .intro_bottom { margin: 25px 0; }
+}
